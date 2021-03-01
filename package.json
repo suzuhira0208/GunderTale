@@ -1,0 +1,20 @@
+{
+  "name": "gundertale_proto",
+  "version": "1.0.0",
+  "description": "title.htmlを最初に読み込んでください",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron electron_start.js",
+    "pack": "electron-packager . gundertale --platform=linux --arch=x64 --electron-version=2.0.6 --overwrite --prune=true --out=./electron-release" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cis.iwate-u.ac.jp/2018_g04/gundertale_proto"
+  },
+  "author": "group04",
+  "license": "ISC",
+  "dependencies": {
+    "electron-packager": "^12.1.0"
+  }
+
+}
